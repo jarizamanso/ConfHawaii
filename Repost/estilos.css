@@ -1,0 +1,38 @@
+/*Estilos header*/
+#header {background-color: #343a40;}
+#header img{width: 80px;}
+#header span {font-size: 18px;
+              vertical-align: middle;/*Alineación vertical al medio*/}
+.texto-platzi {color: #97c93e !important;/*Important hace que le de priporidad frente al resto de etiquetas*/}              
+/*Fin de estilos header*/
+
+/*Estilos footer*/
+#footer {background-color: #1E516F;}
+#footer a {color: White;}
+/*Fin estilos footer*/
+
+/*Estilos carrousel*/
+#carrousel img {height: 70vh;/*vh visualiza en la vertical del dispositivo al porcentaje que quieras, deforma las imágenes*/
+                object-fit: cover;/*Evita la deformación de la imagen en el caso anterior*/
+                filter: grayscale(50%);}
+#carrousel {position: relative;}
+#carrousel .overlay {position: absolute;
+                     top: 0;
+                     bottom: 0;
+                     right: 0;
+                     left: 0;
+                     background-color: rgba(0,0,0,0.5);
+                     color: white;
+                     height: 100%;}
+#carrousel .overlay .container,  #carrousel .overlay .row {height: 100%;}                  
+/*Fin estilos carrousel*/
+.color-platzi {background-color: #97c93e !important;
+               color: white;}
+.color-platzi:hover {background-color: #71A612 !important;}
+/*Fin estilos carrousel*/
+
+/*Estilos contenedor completo*/
+#lugarfecha {background-color: #343a40;
+             color: white;}
+#lugarfecha img {max-width: 100%;}             
+/*Fin de estilos contenedor completo*/               
